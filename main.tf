@@ -1,4 +1,4 @@
-99resource "google_compute_instance" "inst1" {
+resource "google_compute_instance" "inst1" {
   name = "insta"
   zone = "us-central1-c"
   boot_disk {

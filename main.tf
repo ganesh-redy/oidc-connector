@@ -1,6 +1,6 @@
 resource "google_compute_instance" "inst1" {
   name = "insta"
-  zone = "us-central1-c"
+  zone = "europe-north1-a"
   boot_disk {
     initialize_params {
       image = "centos-stream-9"

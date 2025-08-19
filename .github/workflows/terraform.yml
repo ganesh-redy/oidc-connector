@@ -27,8 +27,8 @@ jobs:
     - id: auth
       uses: google-github-actions/auth@v2.0.0  
       with:
-        workload_identity_provider: 'projects/657207815175/locations/global/workloadIdentityPools/github-demo-pool/providers/github'
-        service_account: 'github-wif@tt-dev-001.iam.gserviceaccount.com'
+        workload_identity_provider: 'projects/446552748096/locations/global/workloadIdentityPools/github-demo/providers/github'
+        service_account: 'main-39@sam-465905.iam.gserviceaccount.com'
 
 
           

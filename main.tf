@@ -1,9 +1,9 @@
-resource "google_compute_instance" "inst1" {
+99resource "google_compute_instance" "inst1" {
   name = "insta"
   zone = "us-central1-c"
   boot_disk {
     initialize_params {
-      image = "centos-stream"
+      image = "centos-stream-9"
     }
   }
   machine_type = "e2-medium"
